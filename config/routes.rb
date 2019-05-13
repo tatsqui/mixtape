@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
 
-get '/songs', to: 'song#index', as: 'songs'
+get '/songs', to: 'songs#index', as: 'songs'
 end
